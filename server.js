@@ -13,7 +13,7 @@ const app = express();
 
 // ✅ Enable CORS
 app.use(cors({
-  origin: 'https://jewllery-server.onrender.com', // 🔁 You can change this to '*' for testing
+  origin: 'https://jewlleryshop-client.onrender.com', // 🔁 You can change this to '*' for testing
   credentials: true
 }));
 
